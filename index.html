@@ -5,22 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Online</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/bases.css">
+
+                <!--******HEADER CSS******-->
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/menu/menu.css">
+    <link rel="stylesheet" href="/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="/css/menu/menu-item.css">
+    <link rel="stylesheet" href="/css/menu/menu-link.css">
+
+                <!--******LOGIN CSS******-->
+    <link rel="stylesheet" href="/css/container.css">
+    <link rel="stylesheet" href="/css/login/login.css">
+    <link rel="stylesheet" href="/css/login/login-titulo.css">
+    <link rel="stylesheet" href="/css/login/login-form.css">
 </head>
 <body>
-    <h1 class="titulo">Formulario de Registro</h1>
 
-    <div class="form__container">
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required>
-            <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required>
-            <input type="submit" value="Registrarse" class="boton">
-        </form>
+                <!--******HEADER******-->
+    <header class="head">
+        <img src="" alt="Logo">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="#"></a>Inicio</li>
+                <li class="menu__item"><a class="menu__link" href="#">Productos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contacto</a></li>
+                <li class="menu__item"><a class="menu__link activo" href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+                <!--******LOGIN******-->
+
+    <div class="container">
+        <div class="login">
+            <h1 class="login__titulo">Bienvenido</h1>
+            <form class="login__form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                <input type="submit" value="Registrarse" class="boton">
+            </form>
+        </div>
     </div>
+
     <script src="clase.js"></script>
 </body>
 </html>
