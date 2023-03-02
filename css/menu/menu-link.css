@@ -1,0 +1,9 @@
+.menu__link{
+    color: var(--color-link);
+    text-decoration: none;
+    margin-right: 1.25rem;
+}
+
+.menu__link.activo{
+    color: var(--fondo-boton);
+}
