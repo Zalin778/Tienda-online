@@ -1,0 +1,33 @@
+.login__form{
+    color: var(--color-letra);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    border: none;
+}
+  
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.boton{
+    background-color: var(--fondo-boton);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-letra);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}

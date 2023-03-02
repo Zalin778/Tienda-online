@@ -1,0 +1,10 @@
+:root{
+    --fondo: #d3d3d3;
+    --fondo-login: #13232fe6;
+    --color-letra: #fff;
+    --fondo-boton: #4CAF50;
+}
+
+body{
+    background-color: var(--fondo);
+}
