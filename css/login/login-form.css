@@ -29,5 +29,11 @@ input{
     font-size: 14px;
     margin-top: 16px;
     cursor: pointer;
-    transition: all 2s ease-in-out;
+}
+
+.boton:hover{
+    transition: all .2s;
+    background-color: var(--fondo);
+    color: var(--color-boton);
+    box-shadow: 0 0 50px rgba(47, 196, 10, 0.5);
 }
