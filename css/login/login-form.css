@@ -33,7 +33,7 @@ input{
 
 .boton:hover{
     transition: all .2s;
-    background-color: var(--fondo);
+    background-color: #ffffff;
     color: var(--color-boton);
     box-shadow: 0 0 50px rgba(47, 196, 10, 0.5);
 }

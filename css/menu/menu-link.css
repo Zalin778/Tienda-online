@@ -4,6 +4,10 @@
     margin-right: 1.25rem;
 }
 
+.menu__link:hover{
+    color: var(--fondo-boton);
+}
+
 .menu__link.activo{
     color: var(--fondo-boton);
 }
