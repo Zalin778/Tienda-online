@@ -20,4 +20,4 @@ formulario.addEventListener("submit", function(evento) {
   if (contrasena.length < 8) {
     alert("La contraseña debe tener al menos 8 caracteres.");
     return;
-}
+  }})
